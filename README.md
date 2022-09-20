@@ -92,6 +92,6 @@ int main()
 }
 ```
 
-OUTPUT:
+Output: </br>
 Maximum sum is ->37 + -8 + 7 + 23 + -34 + 61 = 86 
 From index7 to 12
