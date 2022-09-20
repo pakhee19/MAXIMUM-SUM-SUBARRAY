@@ -1,8 +1,8 @@
-#Maximum Sum SubArray
+Maximum Sum SubArray
 Provides a solution to implement the solution for Maximum Sum Array by populating the array of size 14 with non-zero [positive/negative] random numbers: 10,47,-2,9,-64,1,-68,37,-8,7,23,-34,61,-3
 
 Code:
-
+```
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -18,7 +18,6 @@ void max_crossing_subarray(int arr[],int low, int mid, int high,int &max_left,in
             max_left=i;
         }
     }
-    
     int right_sum=INT_MIN;
     sum=0;
     for(j=mid+1;j<=high;j++){
@@ -89,9 +88,9 @@ int main()
    cout<<" = ";
    cout<<sum;
    cout<<" \nFrom index"<<start_index<<" to "<<end_index;
-   
-    return 0;
+     return 0;
 }
+```
 
 OUTPUT:
 Maximum sum is ->37 + -8 + 7 + 23 + -34 + 61 = 86 
