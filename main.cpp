@@ -1,4 +1,3 @@
-
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -70,7 +69,7 @@ void maximum_subarray(int arr[],int low,int high,int &ret_low,int &ret_high,int 
 }
 int main()
 {
-   int arr[]={12,54,-2,6,-54,6,-33,30,-8,5,21,-34,76,-9};
+   int arr[]={10,47,-2,9,-64,1,-68,37,-8,7,23,-34,61,-3};
    int start_index;
    int end_index;
    int sum;
